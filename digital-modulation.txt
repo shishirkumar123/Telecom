@@ -1,0 +1,28 @@
+
+
+Digital modulation
+	ASK - Amplitude Shift Keying 
+		0 - No Signal
+		1 - Signal
+	FSK - Frequency Shift Keying
+		0 - Low frequency
+		1 - High frequency
+		(FSK is less common? Used in sweden?
+	PSK - Phase shift Keying
+		BPSK - Binary phase shift keying ( 0, 180)
+			0 - Sinusoidal waveform starting from 0 degree
+			1 - Sinusoidal waveform starting from 180 degree
+		QPSK - Quadrature phase shift keying(0, 90,180, 270)
+			00 - Sinusoidal waveform starting from 0 degree
+			01 - Sinusoidal waveform starting from 90 degree
+			10 - Sinusoidal waveform starting from 180 degree
+			11 - Sinusoidal waveform starting from 270 degree
+			[Data rateimproved because now 1 signal is passing two digital value.]
+	8-PSK - same idea extended(0, 45, 90, 135, 180, 225, 270, 315)
+			000 - 0 degree
+			001 - 45 degree and so on.
+	8-QAM - Quadrature amplitude modulation
+			PSK + ASK = QAM
+			Higher data rates can be achieved, but at the cost of the noise margin.
+	16-QAM
+			
